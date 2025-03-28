@@ -1,0 +1,15 @@
+{
+  "name": "telegram-ip-checker-bot",
+  "version": "1.0.0",
+  "description": "Bot do Telegram para verificar IPs e CDNs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "dns": "^0.2.2"
+  }
+} 
